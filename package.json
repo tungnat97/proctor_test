@@ -81,5 +81,8 @@
   "bugs": {
     "url": "https://github.com/lanten/electron-antd/issues"
   },
-  "homepage": "https://github.com/lanten/electron-antd#readme"
+  "homepage": "https://github.com/lanten/electron-antd#readme",
+  "dependencies": {
+    "face-api.js": "^0.22.2"
+  }
 }

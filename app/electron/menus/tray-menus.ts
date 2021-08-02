@@ -2,12 +2,17 @@ import { MenuItemConstructorOptions } from 'electron'
 
 export const trayMenus: MenuItemConstructorOptions[] = [
   {
-    label: 'Home',
+    label: 'Proctor',
+    click: (): void => {
+      $tools.createWindow('Proctor')
+    },
+  },
+  {
+    label: 'Proctor',
     click: (): void => {
       $tools.createWindow('Home')
     },
   },
-
   {
     label: 'Page Params',
     click: (): void => {
